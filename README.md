@@ -25,7 +25,7 @@ Here are some ideas to get you started:
     <!-- Header Section -->
     <header>
         <div class="header-content">
-            <h1>Selamat Datang di Veraziqa</h1>
+            <h1>What Are You Doing at Veraziqa?</h1>
             <p>I'm Vera, 18 years old, still don't know what to do with 2025. or maybe i will spend my january study coding stuffs cause 3 hours ago i watched @techroastshow and studying code ever since, yep 3 hours.</p>
         </div>
     </header>
