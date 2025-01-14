@@ -30,37 +30,67 @@ Here are some ideas to get you started:
             <p>Im Vera, 18 years old, still don't know what to do with 2025</p>
         </div>
     </header>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
-    <!-- Main Content -->
-    <main>
-        <section class="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Welcome to my personal space! Here, you will find a glimpse of my life, thoughts, and creativity.</p>
-            </div>
-        </section>
+header {
+    background-color: #8a2be2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
-        <section class="gallery">
-            <div class="container">
-                <div class="photo"><img src="foto1.jpg" alt="Foto 1"></div>
-                <div class="photo"><img src="foto2.jpg" alt="Foto 2"></div>
-                <div class="photo"><img src="foto3.jpg" alt="Foto 3"></div>
-                <div class="photo"><img src="foto4.jpg" alt="Foto 4"></div>
-                <div class="photo"><img src="foto5.jpg" alt="Foto 5"></div>
-                <div class="photo"><img src="foto6.jpg" alt="Foto 6"></div>
-                <div class="photo"><img src="foto7.jpg" alt="Foto 7"></div>
-                <div class="photo"><img src="foto8.jpg" alt="Foto 8"></div>
-                <div class="photo"><img src="foto9.jpg" alt="Foto 9"></div>
-                <div class="photo"><img src="foto10.jpg" alt="Foto 10"></div>
-            </div>
-        </section>
-    </main>
+h1 {
+    margin: 0;
+}
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Veraziqa. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+main {
+    padding: 20px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* Animasi untuk header */
+header {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+// scripts.js
+
+// Placeholder for any future JavaScript animations or interactions
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Document is fully loaded and parsed.');
+    // Add any JavaScript animations or interactions here
+});
